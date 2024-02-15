@@ -12,7 +12,7 @@ public class PlayerCollider : MonoBehaviour
         if(collision.gameObject.CompareTag("Obstacles"))
         {
 
-            Invoke("Restart", delayTime);
+            Invoke("Restart", 0.5f);
         } 
     }
 
