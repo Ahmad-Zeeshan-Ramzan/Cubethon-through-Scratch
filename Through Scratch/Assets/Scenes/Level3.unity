@@ -902,6 +902,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1731444514543159544, guid: df8ef518306a5414ab2fe9f4275df90c, type: 3}
+      propertyPath: ExitButton
+      value: 
+      objectReference: {fileID: 1049997796}
+    - target: {fileID: 1731444514543159544, guid: df8ef518306a5414ab2fe9f4275df90c, type: 3}
       propertyPath: CompleteLevelUI
       value: 
       objectReference: {fileID: 327581192}
@@ -1621,6 +1625,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Exit
       objectReference: {fileID: 0}
+    - target: {fileID: 6188280909486487730, guid: 97327ea2a11c457409b3727b7b62a05d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1629,6 +1637,11 @@ PrefabInstance:
 --- !u!224 &1049997795 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1572662104482414227, guid: 97327ea2a11c457409b3727b7b62a05d, type: 3}
+  m_PrefabInstance: {fileID: 1049997794}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1049997796 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6188280909486487730, guid: 97327ea2a11c457409b3727b7b62a05d, type: 3}
   m_PrefabInstance: {fileID: 1049997794}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1103153260

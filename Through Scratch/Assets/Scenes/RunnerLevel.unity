@@ -1928,6 +1928,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1731444514543159544, guid: df8ef518306a5414ab2fe9f4275df90c, type: 3}
+      propertyPath: ExitButton
+      value: 
+      objectReference: {fileID: 5890709275871508500}
+    - target: {fileID: 1731444514543159544, guid: df8ef518306a5414ab2fe9f4275df90c, type: 3}
       propertyPath: CompleteLevelUI
       value: 
       objectReference: {fileID: 327581192}
@@ -6497,6 +6501,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97327ea2a11c457409b3727b7b62a05d, type: 3}
+--- !u!1 &5890709275871508500 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6188280909486487730, guid: 97327ea2a11c457409b3727b7b62a05d, type: 3}
+  m_PrefabInstance: {fileID: 5890709275871508499}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8817730289831829319
 PrefabInstance:
   m_ObjectHideFlags: 0
