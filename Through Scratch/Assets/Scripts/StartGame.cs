@@ -9,9 +9,14 @@ public class StartGame : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
-    public void RestarGame()
+
+    public void RunnerGame()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("RunnerLevel");
+    }
+    public void RestartGame()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 
   

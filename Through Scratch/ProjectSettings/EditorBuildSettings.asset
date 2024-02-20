@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level3.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/Restart.unity
+    path: Assets/Scenes/RestartGame.unity
     guid: f1c9f8230fcc5ef40873e7527f1d52f0
+  - enabled: 1
+    path: Assets/Scenes/RunnerLevel.unity
+    guid: 9e397bceeb655c5468b45858e9b8ebe2
   m_configObjects: {}

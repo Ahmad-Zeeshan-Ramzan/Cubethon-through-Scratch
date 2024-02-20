@@ -22,6 +22,11 @@ public class PlayerCollider : MonoBehaviour
         {
             Invoke("CompleteLevel", animationdelayTime);
             Invoke("NextLevel", delayTime);
+        } 
+        if (other.gameObject.CompareTag("CompleteRunner"))
+        {
+            Invoke("CompleteLevel", animationdelayTime);
+            Invoke("RestartMenu", delayTime);
         }
     }
     void CompleteLevel()
@@ -30,7 +35,7 @@ public class PlayerCollider : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if (player.position.y < -1)
+        if (player.position.y < 0.9)
         {
             Restart();
         }
@@ -38,6 +43,10 @@ public class PlayerCollider : MonoBehaviour
     void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    } 
+    void RestartMenu()
+    {
+        SceneManager.LoadScene("RestartGame");
     }
 
     void NextLevel()

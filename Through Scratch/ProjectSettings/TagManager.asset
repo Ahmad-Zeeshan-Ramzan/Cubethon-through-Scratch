@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Obstacles
   - CompleteLevel
+  - CompleteRunner
   layers:
   - Default
   - TransparentFX

@@ -99,10 +99,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 209820ec63b41984d9bf27b7339c5f6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 3478321725802029508}
   rg: {fileID: 8633416617915644838}
-  forceForward: 400
-  forceSideway: 4000
+  forceMove: 500
+  forceSideways: 30
 --- !u!114 &1731444514543159544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147,7 +146,7 @@ Rigidbody:
   m_GameObject: {fileID: 7454548088985715248}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
