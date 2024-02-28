@@ -12,7 +12,7 @@ Cubethon is an exciting obstacle game featuring two engaging modes: Level Base M
 This project was created with inspiration from tutorials by Brackeys on YouTube. However, Cubethon was built entirely from scratch, showcasing my skills in game development using Unity and C#.
 
 ## Live Preview:
-Experience Cubethon live through the following link: Cubethon Live Preview
+Experience Cubethon live through the following link: [Cubethon](https://ahmad-zeeshan-ramzan.github.io/Cubethon-through-Scratch/)
 
 ## Instructions:
 
